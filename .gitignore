@@ -1,0 +1,10 @@
+[200~# IntelliJ
+.idea/*
+*.iml
+# Build
+out/*
+target/
+bin/
+
+# OS
+.DS_Store 
