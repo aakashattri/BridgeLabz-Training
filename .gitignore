@@ -1,4 +1,4 @@
-[200~# IntelliJ
+# IntelliJ
 .idea/*
 *.iml
 # Build
@@ -7,4 +7,4 @@ target/
 bin/
 
 # OS
-.DS_Store 
+.DS_Store
