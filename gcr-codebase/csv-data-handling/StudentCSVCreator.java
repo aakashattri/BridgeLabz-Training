@@ -6,7 +6,7 @@ public class StudentCSVCreator {
 
     public static void main(String[] args) {
 
-        String fileName = "src/io_progaramming_practice/csv_data_Handling/studentRecord.csv";
+        String fileName = "gcr-codebase/csv-data-handling/studentRecord.csv";
 
         try (FileWriter writer = new FileWriter(fileName)) {
 

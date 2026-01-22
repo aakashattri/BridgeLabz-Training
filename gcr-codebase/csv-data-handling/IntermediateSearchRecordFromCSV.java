@@ -8,7 +8,7 @@ public class IntermediateSearchRecordFromCSV {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the name - ");
 		String name=sc.next();
-		String filePath="src/io_progaramming_practice/csv_data_Handling/BasicCSVProblemOutput.csv";
+		String filePath="gcr-codebase/csv-data-handling/BasicCSVProblemOutput.csv";
 		boolean found=false;
 		try(BufferedReader bfr=new BufferedReader(new FileReader(filePath))){
 			String line;

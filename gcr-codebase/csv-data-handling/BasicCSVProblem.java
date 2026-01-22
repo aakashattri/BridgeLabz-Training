@@ -8,7 +8,7 @@ public class BasicCSVProblem {
 	public static void main(String[] args) {
 		//writting data to CSV file
 		int rows=0;
-		try(BufferedWriter bfw=new BufferedWriter(new FileWriter("src/io_progaramming_practice/csv_data_Handling/BasicCSVProblemOutput.csv"))) {
+		try(BufferedWriter bfw=new BufferedWriter(new FileWriter("gcr-codebase/csv-data-handling/BasicCSVProblemOutput.csv"))) {
 			bfw.write("ID,Name,Department,Salary\n");
 			bfw.write("104,Anurag,Developr,45000\n");
 			bfw.write("105,Aakash,HR,50000\n");
@@ -19,7 +19,7 @@ public class BasicCSVProblem {
 			e.printStackTrace();
 		}
 		//reading data
-		try(BufferedReader bfr=new BufferedReader(new FileReader("src/io_progaramming_practice/csv_data_Handling/StudentRecord.csv"))){
+		try(BufferedReader bfr=new BufferedReader(new FileReader("gcr-codebase/csv-data-handling/StudentRecord.csv"))){
 			String line;
 			while((line=bfr.readLine())!=null) {
 				rows++;

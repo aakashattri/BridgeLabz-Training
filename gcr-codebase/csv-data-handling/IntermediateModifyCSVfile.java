@@ -7,8 +7,8 @@ import java.io.FileWriter;
 public class IntermediateModifyCSVfile {
 
     public static void main(String[] args) {
-        String inputFile="src/io_progaramming_practice/csv_data_Handling/BasicCSVProblemOutput.csv";
-        String outputFile="src/io_progaramming_practice/csv_data_Handling/UpdatedEmployeeRecord.csv";
+        String inputFile="gcr-codebase/csv-data-handling/BasicCSVProblemOutput.csv";
+        String outputFile="gcr-codebase/csv-data-handling/UpdatedEmployeeRecord.csv";
         try (
             BufferedReader bfr=new BufferedReader(new FileReader(inputFile));
             BufferedWriter bfw=new BufferedWriter(new FileWriter(outputFile))

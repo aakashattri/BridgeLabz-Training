@@ -4,7 +4,7 @@ import java.io.*;
 public class AdvanceReadLargeCSV {
     public static void main(String[] args) throws Exception {
 
-        BufferedReader br=new BufferedReader(new FileReader(""));
+        BufferedReader br=new BufferedReader(new FileReader("gcr-codebase/csv-data-handling/studentRecord.csv"));
         br.readLine();
         String line;
         int count=0;

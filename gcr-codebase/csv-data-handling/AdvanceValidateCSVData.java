@@ -14,7 +14,7 @@ public class AdvanceValidateCSVData {
             System.out.println("Invalid input format!");
             return;
         }
-        String filePath="src/io_progaramming_practice/csv_data_Handling/AdvanceValidateCSVDataOutputFile.csv";
+        String filePath="gcr-codebase/csv-data-handling/AdvanceValidateCSVDataOutputFile.csv";
         try(BufferedWriter bfw=new BufferedWriter(new FileWriter(filePath,true))){
             bfw.write("Name,Email,PhoneNumber");
             bfw.newLine();

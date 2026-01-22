@@ -4,7 +4,7 @@ import java.io.FileReader;
 
 public class IntermediateFilterRecordFromCSV {
 	public static void main(String[] args) {
-		String filePath="src/io_progaramming_practice/csv_data_Handling/StudentRecord.csv";
+		String filePath="gcr-codebase/csv-data-handling/StudentRecord.csv";
 		boolean found=false;
 		try(BufferedReader bfr=new BufferedReader(new FileReader(filePath))){
 			
